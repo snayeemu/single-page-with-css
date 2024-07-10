@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 100px;
+}
+
+nav h1 {
+  color: #0d1321;
+  font-size: 28px;
+  font-weight: 800;
+}
+nav button {
+  width: 228px;
+  height: 58px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+}
+
+.group-section-container {
+  margin-bottom: 74px;
+  background-image: url("assets/Hero-bg.png");
+  margin-bottom: 74px;
+}
+.group-section-content {
+  width: 80%;
+  height: 652px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 26px 20px;
+}
+.group-section-content h1 {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  color: rgb(13, 19, 33);
+}
+.group-section-content p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.group-section-content button {
+  width: 208px;
+  height: 66px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.group-section-content a {
+  color: white;
+}
+
+.development-container {
+  width: 1141px;
+  height: 1391px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.content {
+  width: 945px;
+  height: 1234px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.development-text {
+  width: 852px;
+  height: 113px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.development-text h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.development-text p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.side-photo-content {
+  width: 947px;
+  height: 336px;
+  padding: 47px 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 99px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+.side-photo-content h1 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.side-photo-content p {
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.side-photo-content button {
+  width: 131px;
+  height: 51px;
+  border: none;
+  border: 1px solid grey;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.iframe-section-container {
+  width: 1141px;
+  height: 776px;
+  margin: 0 auto;
+  margin-bottom: 151px;
+}
+
+.iframe-section {
+  width: 80%;
+  height: 113px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.iframe-section h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.iframe-section p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.iframe {
+  margin-bottom: 30px;
+}
+
+
+
+.iframe-video {
+  width: 1076px;
+  height: 550px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  padding: 30px 30px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.iframe-video iframe {
+  border-radius: 20px;
+}
+
+.current-target-container {
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+.current-target-text {
+  text-align: center;
+  width: 80%;
+  height: 113px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.current-target-text h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 10px;
+}
+.current-target-text p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.skill-1 {
+  width: 364px;
+  height: 350px;
+  padding: 40px 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.skill-2 {
+  width: 364px;
+  height: 350px;
+  padding: 40px 40px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.skill-3 {
+  width: 364px;
+  height: 350px;
+  padding: 40px 40px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.skill-1 p,
+.skill-2 p,
+.skill-3 p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+.skill-1 h1,
+.skill-2 h1,
+.skill-3 h1 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+.current-target-skills {
+  display: flex;
+  gap: 24px;
+}
+.support-container {
+  width: 1140px;
+  height: 313px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("./assets/handshake.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+  background-blend-mode: overlay;
+  border-radius: 16px;
+  color: white;
+}
+.support-content {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.support-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.support-content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  opacity: 0.6;
+}
+.support-content input[type="text"] {
+  width: 548px;
+  height: 57px;
+  border: none;
+  border-radius: 10px;
+  padding: 19px 19px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.support-content button {
+  width: 120px;
+  height: 57px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+}
+footer {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-about {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+}
+.footer-about h3 {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-about img {
+  padding-left: 20px;
+}
